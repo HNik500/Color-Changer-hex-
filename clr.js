@@ -1,9 +1,8 @@
-let getBtntobc = document.getElementById('change-color-btn');
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    let getBtntobc = document.getElementById('change-color-btn');
 let changebc = document.getElementById('color-box');
-// getBtn.style.backgroundColor 
-
-
-getBtntobc.addEventListener('click', function(){
+getBtntobc.addEventListener('click', function  getRandomColor(){
     
     let array1 = ["A", "B", "C", "D", "E","F", "1","2","3","4","5","6","7","8","9"]
     let hexcolor = '#'
@@ -15,6 +14,13 @@ getBtntobc.addEventListener('click', function(){
     document.querySelector('.mycurrentcolor').innerHTML = hexcolor;
     
 })
+});
+
+// getBtn.style.backgroundColor 
+
+
+
+
 
 // const spanHi = document.getElementById('color-box');
 // spanHi.style.backgroundColor = '#abc23e';
