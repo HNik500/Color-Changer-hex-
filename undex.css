@@ -1,0 +1,15 @@
+#color-box{
+    margin-top: 100px;
+    background-color: black;
+    padding-top: 100px;
+  margin-left: 38%;
+  margin-right: 40%;
+  
+    
+}
+.mycurrentcolor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
